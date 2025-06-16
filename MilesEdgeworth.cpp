@@ -1405,11 +1405,11 @@ void MilesEdgeworth::doubleClickEvent()
         else {                      //看招
             if (language == 0) {
                 filename = QString(":/gifs/objection/kanzhaoa%1.gif").arg(direction % 2);
-                soundEffect->setSource(QUrl::fromLocalFile(QString(":/audios/eureka%1.wav").arg(language)));
+                soundEffect->setSource(QUrl::fromLocalFile(QString(":/audios/takethat%1.wav").arg(language)));
             }
             else if (language == 1) {
                 filename = QString(":/gifs/objection/kanzhaob%1.gif").arg(direction % 2);
-                soundEffect->setSource(QUrl::fromLocalFile(QString(":/audios/eureka%1.wav").arg(language)));
+                soundEffect->setSource(QUrl::fromLocalFile(QString(":/audios/takethat%1.wav").arg(language)));
             }
             else { // language == 2
                 filename = QString(":/gifs/objection/kanzhaoc%1.gif").arg(direction % 2);
